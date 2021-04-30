@@ -13,6 +13,40 @@
     <link rel="stylesheet" type="text/css" href="./styles/global.css">
 </head>
 
+<style>
+    @media (max-width: 800px) {
+
+        .body {
+            flex-direction: column;
+        }
+
+        .textL {
+            font-size: 24px;
+        }
+
+        .title {
+            font-size: 42px;
+        }
+
+        .itens {
+            height: 400px;
+            width: 300px;
+            margin-left: 0;
+            margin-top: 10%;
+        }
+
+        .container-title {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .body p {
+            padding: 30px;
+        }
+    }
+</style>
+
 <body>
     <header>
         <div class="container-title">

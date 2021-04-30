@@ -13,6 +13,54 @@
     <link rel="stylesheet" type="text/css" href="./styles/global.css">
 </head>
 
+<style>
+    @media (max-width: 800px) {
+
+        .container-title {
+            width: 100%;
+        }
+
+        .title {
+            padding-top: 10%;
+        }
+
+        .logo {
+            height: 60px;
+            width: 180px;
+            margin-left: 0;
+            margin: 15px 30px;
+        }
+
+        .body {
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-right: 0;
+        }
+
+        .Header {
+            height: 300px;
+            width: 100%;
+            padding: 30px;
+        }
+
+        .Header .App {
+            margin-left: 0;
+            height: 700px;
+            width: 500px;
+        }
+
+        .App {
+            visibility: hidden;
+        }
+
+        .player {
+            margin-left: 0;
+        }
+
+    }
+</style>
+
 <body>
     <header class="Header">
         <div class="container-title">

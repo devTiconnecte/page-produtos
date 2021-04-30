@@ -13,6 +13,19 @@
     <link rel="stylesheet" type="text/css" href="./styles/global.css">
 </head>
 
+<style>
+    @media (max-width: 800px) {
+        .body {
+            flex-direction: column;
+        }
+
+        .button-more {
+            margin-left: 80%;
+        }
+
+    }
+</style>
+
 <body>
 
     <header>

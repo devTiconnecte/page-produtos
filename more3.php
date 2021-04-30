@@ -13,6 +13,22 @@
     <link rel="stylesheet" type="text/css" href="./styles/global.css">
 </head>
 
+<style>
+    @media (max-width: 800px) {
+        .body {
+            flex-direction: column;
+        }
+
+        .button-more3 {
+            margin-top: 10%;
+        }
+
+        .textL {
+            font-size: 24px;
+        }
+    }
+</style>
+
 <body>
     <header>
         <div class="container-title">
